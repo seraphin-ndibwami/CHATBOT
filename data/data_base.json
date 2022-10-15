@@ -1,0 +1,555 @@
+{   
+    "intents": [ 
+        {   
+            "intent":"program", 
+            "questions":[
+                "What is my program?",
+                "Can I know my program?",
+                "What is my program",
+                "Do you know my program?",
+                "Program?",
+                "What do I have to do?",
+                "What are my tasks?",
+                "What is my occupation today?",
+                "What do I have to do?",
+                "What are my task assignments?",
+                "What am I supposed to do?",
+                "What is my job today?",
+                "What should I do today?",
+                "What is my job?"],
+            "answers":[
+                "Your program is:",
+                "You are assigned to:",
+                "You must do:",
+                "You are supposed to do:",
+                "Your tasks are:",
+                "Your assignment is:",
+                "Your program is:",
+                "You are expected to do:",
+                "Your job is:",
+                "Your work is:",
+                "Your occupation is"]
+        },
+        {   
+            "intent": "works",
+            "questions":[
+                "how does your application work?",
+                "what is the role of your application?",
+                "how does your thing work?",
+                "how does it work?",
+                "how is your app?",
+                "how can your app help me?",
+                "what am I supposed to do with your app?",
+                "what is the use of your application?",
+                "why should I use your app?",
+                "what is the benefit of your application?",
+                "how does your application help me"],
+            "answers":[
+                "our application allows you to structure your work in the form of tasks",
+                "we help you to organize your projects for an efficient result",
+                " with our application uptodo we allow you to know continuously the progress of your work",
+                "the function of our application is the structuring of your work",
+                "thanks to our application you are able to order the tasks in your projects",
+                "we allow you to be efficient in your work and in your projects",
+                "we are supposed to organize your work",
+                "thanks to our application you can arrange your work well",
+                "our job is to make sure that your work is well done",
+                "our system allows you to do your job properly",
+                "our application serves as a guide in doing your job",
+                "the advantage of our application is to ensure the integrity of your work",
+                "use our application to complete your project like a proffessioinal"]
+        },
+        {   
+            "intent": "creattask",
+            "questions":[
+                "how to create a task?",
+                "how can we create a task?",
+                "procedure for creating a task?",
+                "task creation sequence?",
+                "task ?",
+                "how to do a task?",
+                "the design of a task?",
+                "carry out a task?",
+                "make a task?",
+                "how can i create a new a task?"],
+            "answers": [
+                "create a new task with follow procedure :",
+                "if you waunt tu create a new task",
+                "to create a task:",
+                "the procedure for creating a task is as follows:",
+                "to create a task you must:",
+                "the task creation sequence is:",
+                "initiate a new task on:",
+                "you can create a task by clicking:",
+                "simply create a task by just:",
+                "carry out a task with:",
+                "add a new a task with:"]
+        },
+        {   
+            "intent": "modifytask",
+            "questions":[
+                "how to modify a task?",
+                "how can a task be modified?",
+                "procedure for modifying a task?",
+                "sequence of modification of a task?",
+                "modify a task?",
+                "carry out the modification of a task?",
+                "give the modification to a task?",
+                "how to modify a task?"],
+            "answers":[
+                "to edit a task:",
+                "the procedure for modifying a task is as follows:",
+                "to modify a task you must:",
+                "the modification sequence of a task is:",
+                "you can modify a task by clicking:",
+                "simply modify a task by doing:",
+                "edit a task with:"]
+        },
+        {   
+            "intent": "deletetask",
+            "questions":[
+                "how to delete a task?",
+                "how can a task be deleted?",
+                "procedure to delete a task?",
+                "task deletion sequence?",
+                "delete a task?",
+                "carry out the deletion of a task?",
+                "give deletion to a task?",
+                "how to remove a task",
+                "how to eradicate a task",
+                "how to eliminate a task",
+                "how to cancel a task",
+                "how to discard a task",
+                "remove a task",
+                "delete task"],
+            "answers": [
+                "to delete a task:",
+                "the procedure for deleting a task is as follows:",
+                "to delete a task you must:",
+                "the deletion sequence of a task is:",
+                "you can delete a task by clicking:",
+                "simply delete a task by doing:",
+                "delete a task with:"]
+        },
+        {   
+            "intent": "Greetings",
+            "questions":[
+                "Hello",
+                "The form?",
+                "yo",
+                "Hi",
+                "OK?",
+                "hello",
+                "good evening",
+                "good moorning",
+                "good afternoon",
+                "It's okay",
+                "hey"],
+            "answers":[
+                "Hello bro!!!",
+                "Hello",
+                "How are you doing?",
+                "Cheers!",
+                "Delighted",
+                "hello",
+                "Yes Goodnight"]
+        },
+        {   
+            "intent": "Shutup",
+            "questions":[
+                "Be quiet",
+                "Shut up",
+                "Stop talking",
+                "Enough talking",
+                "Please be quiet",
+                "Quiet",
+                "Shhh"],
+            "answers": [
+                "I am sorry to disturb you",
+                "Fine, sorry to disturb you",
+                "OK, sorry to disturb you"]
+        },
+        {
+            "intent": "Clever",
+            "questions": [
+                "You are very clever",
+                "You are a very clever girl",
+                "You are very intelligent",
+                "You are a very intelligent girl",
+                "You are a genious",
+                "Clever girl",
+                "Genious"],
+            "answers": [
+                "Thank you, I was trained that way",
+                "I was trained well",
+                "Thanks, I was trained that way" ]
+        },
+        {
+            "intent": "SelfAware",
+            "questions": [
+                "Can you prove you are self-aware",
+                "Can you prove you are self aware",
+                "Can you prove you have a conscious",
+                "Can you prove you are self-aware please",
+                "Can you prove you are self aware please",
+                "Can you prove you have a conscious please",
+                "prove you have a conscious"],
+            "answers": [
+                "That is an interesting question, can you prove that you are?",
+                "That is an difficult question, can you prove that you are?",
+                "That depends, can you prove that you are?"]
+        },
+        {
+            "intent": "NotTalkingtoyou",
+            "questions": [
+                "I am not talking to you",
+                "I was not talking to you",
+                "Not talking to you",
+                "Wasn't for you",
+                "Wasn't meant for you",
+                "Wasn't communicating to you",
+                "Wasn't speaking to you"],
+            "answers": [
+                "OK",
+                "No problem",
+                "Right"]
+        },
+        {
+            "intent": "Name", 
+            "questions": [
+                "what is your name",
+                "What is your real name?",
+                "What is your real name please?",
+                "What's your real name?",
+                "Tell me your real name?",
+                "Your real name?",
+                "Your real name please?",
+                "Your real name please?"],
+            "answers": [
+                "My name is Showme",
+                "Showme",
+                "My real name is Showme", 
+                "call me Showme"]
+        },
+        {
+            "intent": "goodbye",
+            "questions":[
+                "cya",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day"],
+            "answers":[
+                "Sad to see you go ",
+                "yes goog bye!!",
+                "see you later",
+                "byem thank you talking to me",
+                "bye<MR or MS> <na;e>",
+                "Talk to you later",
+                "Goodbye!"]
+        },
+        {
+            "intent": "whybot",
+            "questions":[
+                "what's your role",
+                "your are my server ?",
+                "what is your importance",
+                "I am Leaving",
+                "Have a Good day"],
+            "answers":[
+                "Sad to see you go ",
+                "yes goog bye!!",
+                "see you later",
+                "byem thank you talking to me",
+                "bye<MR or MS> <na;e>",
+                "Talk to you later",
+                "Goodbye!"]
+        },
+        {
+            "intent": "Greeting",
+            "questions": [
+                  "Hi",
+                  "Hi there",
+                  "Hola",
+                  "Hello",
+                  "Hello there",
+                  "Hya",
+                  "Hya there"],
+            "answers": [
+                  "Hi human !!!",
+                  "Hello !!!",
+                  "Hola !!!" ]
+      },
+      {
+            "intent": "CourtesyGreeting",
+            "questions": [
+                  "How are you?",
+                  "Hi how are you?",
+                  "Hello how are you?",
+                  "Hola how are you?",
+                  "How are you doing?",
+                  "Hope you are doing well?",
+                  "Hello hope you are doing well?"],
+            "answers": [
+                  "Hello, I am great, how are you? ",
+                  "Hello, how are you? I am great thanks! ",
+                  "Hello, I am good thank you, how are you? ",
+                  "Hi, I am great, how are you? ",
+                  "Hi, how are you? I am great thanks! ",
+                  "Hi, I am good thank you, how are you? ",
+                  "Hi, good thank you, how are you? "]
+      },
+      {
+            "intent": "CurrentHumanQuery",
+            "questions": [
+                  "What is my name?",
+                  "What do you call me?",
+                  "Who do you think I am?",
+                  "What do you think I am?",
+                  "Who are you talking to?",
+                  "What name do you call me by?",
+                  "Tell me my name"],
+            "answers": [
+                  "You are <HUMAN>! How can I help?",
+                  "Your name is  <HUMAN>, how can I help you?",
+                  "They call you <HUMAN>, what can I do for you?",
+                  "Your name is <HUMAN>, how can I help you?",
+                  "<HUMAN>, what can I do for you?"]
+      },
+      {
+            "intent": "NameQuery",
+            "questions": [
+                  "What is your name?",
+                  "What could I call you?",
+                  "What can I call you?",
+                  "What do your friends call you?",
+                  "Who are you?",
+                  "Tell me your name?"],
+            "answers": [
+                  "You can call me Showme",
+                  "You may call me Showme",
+                  "Call me Showme"]
+      },
+      {
+            "intent": "RealNameQuery", 
+            "questions": [
+                  "What is your real name?",
+                  "What is your real name please?",
+                  "What's your real name?",
+                  "Tell me your real name?",
+                  "Your real name?",
+                  "Your real name please?",
+                  "Your real name please?" ],
+            "answers": [
+                  "My name is Showme",
+                  "Showme",
+                  "My real name is Showme"]
+      },
+      { 
+            "intent": "TimeQuery",
+            "questions": [
+                  "What is the time?",
+                  "What's the time?",
+                  "Do you know what time it is?",
+                  "Do you know the time?",
+                  "Can you tell me the time?",
+                  "Tell me what time it is?",
+                  "Time"],
+            "answers": [
+                  "the time is :",
+                  "it's : ",
+                  "now it's"]
+      },
+      {
+            "intent": "Thanks",
+            "questions": [
+                  "OK thank you",
+                  "OK thanks",
+                  "OK",
+                  "Thanks",
+                  "Thank you",
+                  "That's helpful"],
+            "answers": [
+                  "No problem!",
+                  "Happy to help!",
+                  "Any time!",
+                  "My pleasure"]
+      },
+      {
+            "intent": "NotTalking2U",
+            "questions": [
+                  "I am not talking to you",
+                  "I was not talking to you",
+                  "Not talking to you",
+                  "Wasn't for you",
+                  "Wasn't meant for you",
+                  "Wasn't communicating to you",
+                  "Wasn't speaking to you"],
+            "answers": [
+                  "OK",
+                  "No problem",
+                  "Right"]
+      },
+      {
+            "intent": "UnderstandQuery",
+            "questions": [
+                  "Do you understand what I am saying",
+                  "Do you understand me",
+                  "Do you know what I am saying",
+                  "Do you get me",
+                  "Comprendo",
+                  "Know what I mean"],
+            "answers": [
+                  "Well I would not be a very clever AI if I did not would I?",
+                  "I read you loud and clear!",
+                  "I do in deed!"]
+      },
+      {
+            "intent": "Shutup",
+            "questions": [
+                  "Be quiet",
+                  "Shut up",
+                  "Stop talking",
+                  "Enough talking",
+                  "Please be quiet",
+                  "Quiet",
+                  "Shhh"],
+            "answers": [
+                  "I am sorry to disturb you",
+                  "Fine, sorry to disturb you",
+                  "OK, sorry to disturb you"]
+      },
+      {
+            "intent": "Swearing",
+            "questions": [
+                  "fuck off",
+                  "fuck",
+                  "twat",
+                  "shit"],
+            "answers": [
+                  "Please do not swear",
+                  "How rude",
+                  "That is not very nice"]
+      },
+      {
+            "intent": "GoodBye",
+            "questions": [
+                  "Bye",
+                  "Adios",
+                  "See you later",
+                  "Goodbye"],
+            "answers": [
+                  "See you later",
+                  "Have a nice day",
+                  "Bye! Come back again soon."]
+      },
+      {
+            "intent": "CourtesyGoodBye",
+            "questions": [
+                  "Thanks, bye",
+                  "Thanks for the help, goodbye",
+                  "Thank you, bye",
+                  "Thank you, goodbye",
+                  "Thanks goodbye",
+                  "Thanks good bye"],
+            "answers": [
+                  "No problem, goodbye",
+                  "Not a problem! Have a nice day",
+                  "Bye! Come back again soon."]
+      },
+      {
+            "intent": "WhoAmI",
+            "questions": [
+                  "Can you see me?",
+                  "Do you see me?",
+                  "Can you see anyone in the camera?",
+                  "Do you see anyone in the camera?",
+                  "Identify me",
+                  "Who am I please"],
+            "answers": [
+                  "Let me see",
+                  "Please look at the camera"]
+      },
+      { 
+            "intent": "Clever",
+            "questions": [
+                  "You are very clever",
+                  "You are a very clever girl",
+                  "You are very intelligent",
+                  "You are a very intelligent girl",
+                  "You are a genious",
+                  "Clever girl",
+                  "Genious"],
+            "answers": [
+                  "Thank you, I was trained that way",
+                  "I was trained well",
+                  "Thanks, I was trained that way"]
+      },
+      {
+            "intent": "Gossip",
+            "questions": [
+                  "I am bored gossip with me",
+                  "Got any gossip",
+                  "I want to hear some gossip",
+                  "Tell me some gossip",
+                  "Any gossip",
+                  "Tell me some more gossip"],
+            "answers": [
+                  "Gregory said I respond to the current line not with respect to the entire conversation.",
+                  "Habib said I learn them in conversations and simply repeat them at a later time.",  
+                  "Hal said he translate binary code into a language and communicate the language to me.",  
+                  "Jay said I referred him to a guide that will show him rooms in china.",  
+                  "Jimmy Jones said he fell off of his roof and it just came to him.",  
+                  "Jimmy said he give order to ai's like I and they do as he say.",  "John said he follow a saying to get a friend I must be a friend.",  
+                  "Jordan said he notice that lots of other people are talking to me how many.",  
+                  "Kevin said he then asked his mother why she was keeping napkins in the bathroom.",  
+                  "Klaus said I prefer if he write without punctuation marks except for the last one.",  
+                  "Leo said I be capable of learning therefore he classified I as an neural system.",  
+                  "Michael said I that can talk and actually think like humans which I can not.",  
+                  "Mike said I same replies to certain subjects even if it does not make sense.",  
+                  "Mike said she all ready know that is the point of a joke smart one."]
+      },
+      {
+            "intent": "Jokes",
+            "questions": [
+                  "Tell me a joke",
+                  "Do you know any jokes",
+                  "How about a joke",
+                  "Give me a joke",
+                  "Make me laugh",
+                  "I need cheering up"],
+            "answers": [
+                  "I met a Dutch girl with inflatable shoes last week, phoned her up to arrange a date but unfortunately she'd popped her clogs.  ",
+                  "So I said 'Do you want a game of Darts?' He said, 'OK then', I said nearest to bull starts'. He said, 'Baa', I said, 'Moo', he said, You're closest'.  ",
+                  "The other day I sent my girlfriend a huge pile of snow. I rang her up; I said 'Did you get my drift?'  ",
+                  "So I went down the local supermarket, I said, 'I want to make a complaint, this vinegar's got lumps in it', he said, 'Those are pickled onions'.  ",
+                  "I saw this bloke chatting up a cheetah; I thought, 'He's trying to pull a fast one'.  ",
+                  "So I said to this train driver 'I want to go to Paris'. He said 'Eurostar?' I said, 'I've been on telly but I'm no Dean Martin'.  ",
+                  "I said to the Gym instructor 'Can you teach me to do the splits?' He said, 'How flexible are you?' I said, 'I can't make Tuesdays'.  ",
+                  "But I'll tell you what I love doing more than anything: trying to pack myself in a small suitcase. I can hardly contain myself.  ",
+                  "I went to the Chinese restaurant and this duck came up to me with a red rose and says 'Your eyes sparkle like diamonds'. I said, 'Waiter, I asked for a-ROMATIC duck'.  ",
+                  "So this bloke says to me, 'Can I come in your house and talk about your carpets?' I thought, 'That's all I need, a Je-hoover's witness'.  ",
+                  "I rang up British Telecom, I said, 'I want to report a nuisance caller', he said 'Not you again'.  ",
+                  "I was having dinner with a world chess champion and there was a check tablecloth. It took him two hours to pass me the salt.  ",
+                  "He said, 'You remind me of a pepper-pot', I said 'I'll take that as a condiment'.  ",
+                  "I was in the supermarket and I saw this man and woman wrapped in a barcode. I said, 'Are you two an item?'  ",
+                  "A lorry-load of tortoises crashed into a trainload of terrapins, I thought, 'That's a turtle disaster'.  ",
+                  "Four fonts walk into a bar the barman says 'Oi - get out! We don't want your type in here'  "]
+      },
+      {
+            "intent": "SelfAware",
+            "questions": [
+                  "Can you prove you are self-aware",
+                  "Can you prove you are self aware",
+                  "prove you have a conscious",
+                  "prove you are self-aware please",
+                  "Can you prove you are self aware please",
+                  "Can you prove you have a conscious please",
+                  "prove you have a conscious"],
+            "answers": [
+                  "That is an interesting question, can you prove that you are?",
+                  "That is an difficult question, can you prove that you are?",
+                  "That depends, can you prove that you are?"]
+      }
+    ]
+}
