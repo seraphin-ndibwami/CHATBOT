@@ -1,0 +1,11 @@
+{
+    "$schema": "http://json-schema.org/schema#",
+    "title": "JSON SCHEMA data base",
+    "description": "Ceci est un JSON SCHEMA pour le dataset du chatbot",
+    "type": "object",
+    "anyOf": [{"required": ["intents"]}],
+    "properties":{"intent": {"type": "string"},
+                  "questions": {"type": "object"},
+                  "answers": {"type": "object"}
+                 }
+}
